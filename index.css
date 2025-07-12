@@ -18,7 +18,7 @@
  
 .landing-page2-desktop-horizontallogoleftnotloggedmenucenterbutton {
   gap: 24px;
-  width: 1440px;
+  width: 100%;
   display: flex;
   padding: 16px 80px;
   align-items: center;
@@ -26,7 +26,8 @@
   border-color: rgba(221, 225, 230, 1);
   border-style: solid;
   border-width: 0 0 1px;
-  background-color: var(--dl-color-default-white);
+  margin-right: var(--dl-layout-space-halfunit);
+  background-color: #0f7500;
 }
  
 .landing-page2-logo-container1 {
@@ -59,10 +60,16 @@
 }
  
 .landing-page2-text11 {
-  color: var(--dl-color-coolgray-60);
+  color: #ffffff;
   height: auto;
   text-align: left;
   line-height: 110.00000238418579%;
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
  
 .landing-page2-text12 {
@@ -87,7 +94,7 @@
 }
  
 .landing-page2-text13 {
-  color: var(--dl-color-coolgray-90);
+  color: #ffffff;
   height: auto;
   text-align: left;
   line-height: 100%;
@@ -98,10 +105,16 @@
   display: flex;
   padding: 12px 8px;
   align-items: center;
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
  
 .landing-page2-text14 {
-  color: var(--dl-color-coolgray-90);
+  color: #f1f6f9;
   height: auto;
   text-align: left;
   line-height: 100%;
@@ -115,7 +128,7 @@
 }
  
 .landing-page2-text15 {
-  color: var(--dl-color-coolgray-90);
+  color: #ffffff;
   height: auto;
   text-align: left;
   line-height: 100%;
@@ -129,7 +142,7 @@
 }
  
 .landing-page2-text16 {
-  color: var(--dl-color-coolgray-90);
+  color: #ffffff;
   height: auto;
   text-align: left;
   line-height: 100%;
@@ -169,7 +182,7 @@
 }
  
 .landing-page2-text17 {
-  color: var(--dl-color-primary-60);
+  color: #ffffff;
   height: auto;
   text-align: left;
   line-height: 100%;
@@ -210,7 +223,7 @@
   padding: 80px 0 80px 80px;
   align-items: center;
   flex-shrink: 0;
-  background-color: var(--dl-color-coolgray-10);
+  background-color: rgba(255, 255, 255, 0.86);
 }
  
 .landing-page2-content10 {
@@ -385,7 +398,7 @@
   border-style: solid;
   border-width: 0 0 1px;
   flex-direction: column;
-  background-color: var(--dl-color-default-white);
+  background-color: #f5edd3;
 }
  
 .landing-page2-section-text2 {
@@ -716,7 +729,7 @@
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
-  background-color: var(--dl-color-coolgray-10);
+  background-color: rgba(117, 96, 0, 0.11);
 }
  
 .landing-page2-section-text3 {
@@ -759,7 +772,7 @@
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
-  background-color: var(--dl-color-coolgray-10);
+  background-color: rgba(117, 96, 0, 0.11);
 }
  
 .landing-page2-frame11 {
@@ -1644,7 +1657,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-coolgray-60);
+  background-color: #0f7500;
 }
  
 .landing-page2-top6 {
